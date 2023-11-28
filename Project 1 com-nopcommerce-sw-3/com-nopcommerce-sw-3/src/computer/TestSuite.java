@@ -130,7 +130,7 @@ public class TestSuite extends Utility {
         //2.22 Fill the all mandatory field
         sendTextToElement(By.id("BillingNewAddress_FirstName"), "Neil");
         sendTextToElement(By.id("BillingNewAddress_LastName"), "Cooper");
-        sendTextToElement(By.id("BillingNewAddress_Email"), "ncopper@test.moc");
+        sendTextToElement(By.id("BillingNewAddress_Email"), "ncopper369@test.com");
         selectByVisibleFromDropDown(By.id("BillingNewAddress_CountryId"), "United Kingdom");
         sendTextToElement(By.id("BillingNewAddress_City"), "Leeds");
         sendTextToElement(By.name("BillingNewAddress.Address1"), "Liverpool Lane");
